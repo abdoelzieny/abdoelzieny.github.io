@@ -6,7 +6,7 @@ body{
 }
 #left{
     background-color: #2f2e2e;
-    height: 625px;
+    height: 100%;
     width: 230px;
     padding-top: 35px;
     grid-area: left
