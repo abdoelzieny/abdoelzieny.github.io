@@ -6,7 +6,7 @@ body{
 }
 #left{
     background-color: #2f2e2e;
-    height: 100%;
+    height: 622px;
     width: 230px;
     padding-top: 35px;
     grid-area: left
@@ -15,22 +15,24 @@ body{
     border-radius: 50%;
     border: 5px solid #5c5c5c;
     background-color: white;
-    height: 130px;
-    width: 130px;
-    margin-left: 45px;
+    height: 110px;
+    width: 110px;
+    margin-left: 55px;
 }
 #me{
+    padding-top: 16px;
+    padding-left: 5x;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 95px;
+    width: 110px;
 }
 #mee{
-    height: 625px;
-    width: 450px;
+    
+    height: 657px;
     display: inline;
     grid-area: mid;
-    margin: 0;
-    padding: 0
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 #text{
     grid-area: right;
@@ -50,31 +52,35 @@ body{
 }
 #tagline{
     margin-top: 15px;
-    margin-left: 65px;
+    margin-left: 73px;
     color: #a2a2a2;
 }
 #line{
-    width: 50px;
-    background-color: gray;
+    width: 111px;
 }
 #ula{
     padding: 0;
 }
 #ula li{
+    padding: 20px 0 20px;
     list-style-type: none;
-    padding-top: 8px;
     text-align: center;
-    width: 210px
+    width: 230px;
+    
 }
 #ula li a{
     text-decoration: none;
-    padding: 10px 70px 
+    margin: 0 0 0 0;
+    color: azure;
+    font-size: 20px
 }
-#ula li a:hover{
-    background-color: dodgerblue
+#ula li:hover{
+    background-color: white;
 }
 
-
+#ula li:hover a{
+    color: black
+}
 
 
 
